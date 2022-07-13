@@ -2,7 +2,7 @@ package com.company;
 
 public class CarProcessor {
 
-    public void searchByName (Car[] cars, String name) {
+    public void searchByName(Car[] cars, String name) {
         int carNumber = 1;
         System.out.println("Search for cars with a name \"" + name + "\":");
         for (int i = 0; i < cars.length; i++) {
@@ -22,7 +22,7 @@ public class CarProcessor {
         System.out.println();
     }
 
-    public void searchByModel (Car[] cars, String model, int yearsOperation) {
+    public void searchByModel(Car[] cars, String model, int yearsOperation) {
         int currentYear = 2022;
         int carNumber = 1;
         System.out.println("Search for cars with a model \"" + model + "\", that has been in operation for more than \"" + yearsOperation + "\" years:");
@@ -43,7 +43,7 @@ public class CarProcessor {
         System.out.println();
     }
 
-    public void searchByYear (Car[] cars, int year, double price) {
+    public void searchByYear(Car[] cars, int year, double price) {
         int carNumber = 1;
         System.out.println("Search for cars with a year \"" + year + "\", whose price is more than \"" + price + " USD\":");
         for (int i = 0; i < cars.length; i++) {
