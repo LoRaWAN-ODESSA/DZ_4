@@ -14,5 +14,7 @@ public class Runner {
         processor.searchByName(cars, "Honda");
         processor.searchByModel(cars, "GLA", 5);
         processor.searchByYear(cars, 2015, 6000.0);
+        processor.printInfo(cars[1]);
+        processor.printInfo(cars[3]);
     }
 }

@@ -62,4 +62,13 @@ public class CarProcessor {
         }
         System.out.println();
     }
+
+    public void printInfo(Car car) {
+        System.out.println("Name: " + car.name + "; " +
+                "Model: " + car.model + "; " +
+                "Year: " + car.year + "; " +
+                "Color: " + car.color + "; " +
+                "Price: " + car.price + " USD; " +
+                "Registration number: " + car.regNumber + ";\n");
+    }
 }
